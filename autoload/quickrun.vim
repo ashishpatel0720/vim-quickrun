@@ -101,7 +101,7 @@ let g:quickrun#default_config = {
 \   'hook/sweep/files': ['%S:p:r'],
 \ },
 \ 'cpp/g++': {
-\   'command': 'g++',
+\   'command': 'g++ -std=c++14',
 \   'exec': ['%c %o %s -o %s:p:r', '%s:p:r %a'],
 \   'tempfile': '%{tempname()}.cpp',
 \   'hook/sweep/files': '%S:p:r',
